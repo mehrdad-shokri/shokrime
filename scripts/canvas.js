@@ -22,7 +22,7 @@ function floatySpace() {
   for (var i=0; i<count; i++) {
     var p = new Vector( Math.random()*r-Math.random()*r, Math.random()*r-Math.random()*r );
     p.moveBy( center ).rotate2D( i*Math.PI/count, center);
-    p.brightness = 0.1
+    p.brightness = 0.1;
     pts.push( p );
   }
 
