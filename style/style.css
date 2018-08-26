@@ -1,18 +1,7 @@
-@font-face {
-    font-family: 'Raleway';
-    src: url("../fonts/Raleway-Regular.ttf");
-}
-
-ث
 
 @font-face {
-    font-family: 'Raleway-semibold';
-    src: url("../fonts/Raleway-SemiBold.ttf");
-}
-
-@font-face {
-    font-family: 'Raleway-bold';
-    src: url("../fonts/Raleway-Bold.ttf");
+    font-family: 'Open Sans';
+    src: url("../fonts/OpenSans-Regular.woff");
 }
 
 a {
@@ -22,7 +11,7 @@ a {
 
 body {
     color: #fff;
-    font-family: 'Raleway';
+    font-family: 'Open Sans';
     text-align: center;
     margin: 0px;
     font-size: 8pt;
