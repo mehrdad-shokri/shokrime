@@ -67,14 +67,10 @@ section {
     height: 100vh;
 }
 
-#home .highlight {
-    font-family: 'Raleway-semibold';
-}
-
 #home .text {
     margin: 0 0 20px 0;
     font-size: 16pt;
-    line-height: 20pt;
+    line-height: 25pt;
     z-index: 1;
     pointer-events: none;
 }
@@ -94,7 +90,7 @@ section {
 
     #home .text {
         font-size: 32pt;
-        line-height: 36pt;
+        line-height: 45pt;
     }
 }
 
