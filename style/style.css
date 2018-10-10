@@ -1,28 +1,10 @@
 
-@font-face {
-    font-family: 'Open Sans';
-    src: url("../fonts/OpenSans-Regular.woff");
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
 body {
     color: #fff;
-    font-family: 'Open Sans';
-    text-align: center;
-    margin: 0px;
-    font-size: 8pt;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    overflow-x: hidden;
+    font-family: 'Vazir', serif;
 }
 
-.overflow-wrap {
-    overflow-x: hidden;
-}
+
 
 .canvas {
     position: absolute;
@@ -33,62 +15,12 @@ body {
     background: url("../img/filler.png") center center/cover;
 }
 
-.flex {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.highlight {
-    color: #E31B6D;
-}
-
-section {
-    color: #616161;
-    line-height: 11pt;
-    position: relative;
-}
-
-#home {
-    /*padding: 0 10px;*/
-    color: #fff;
-    height: 100vh;
-}
-
-#home .text {
-    margin: 0 0 20px 0;
-    font-size: 16pt;
-    line-height: 25pt;
-    z-index: 1;
-    pointer-events: none;
-}
-
-@media screen and (min-width: 600px) {
-    body {
-        font-size: 12pt;
-    }
-
-    section {
-        line-height: 18pt;
-    }
-
-    section .container {
-        padding: 0 10px;
-    }
-
-    #home .text {
-        font-size: 32pt;
-        line-height: 45pt;
-    }
-}
 
 @media screen and (min-width: 960px) {
     .canvas {
         background: #252934;
     }
 }
-
 canvas#canvas {
     max-height: 99%;
 }
