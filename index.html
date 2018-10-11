@@ -7,6 +7,8 @@
     <title>مهی شکری</title>
     <!-- STYLESHEET -->
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/font.css">
+    <link rel="stylesheet" href="style/grid.css">
     <!-- FAV ICO-->
     <link rel="apple-touch-icon" sizes="57x57" href="/img/favico/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/img/favico/apple-icon-60x60.png">
@@ -75,23 +77,34 @@
             "description": "Mehi Shokri, who makes stuff with code"
         }
 
-
     </script>
     <script src="scripts/pt.min.js"></script>
+    <script src="scripts/typed.js"></script>
+
 </head>
 <body>
-<div id="home" class="flex height-fix">
-    <div id="pt" class="canvas">
-        <span class="flex">
-            <span class="text">
-                Hello, I'm <span class="highlight">Mehrdad Shokri</span>.
-                <br>
-                I build stuff with code.
-            </span>
-        </span>
+<div class="container">
+    <div class="title-wrapper col-12  col-md-10 col-lg-12">
+        <h1 class="name">مهی شکری</h1>
+        <h3>و یه چیزایی با <span id="typed"></span> میسازم</h3>
     </div>
 </div>
+<div id="pt" class="canvas">
+</div>
 </body>
+<footer>
+    <script>
+        var options = {
+            strings: ["کد", "ایده‌هام", "افکارم"],
+            typeSpeed: 60,
+            backSpeed: 30,
+            backDelay: 1000,
+            // startDelay: 2000,
+            loop: true
+        }
+        var typed = new Typed("#typed", options);
+    </script>
+</footer>
 </html>
 
 <script src="scripts/canvas.js"></script>
