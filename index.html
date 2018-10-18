@@ -85,8 +85,8 @@
 <body>
 <div class="container">
     <div class="title-wrapper col-12  col-md-10 col-lg-12">
-        <h1 class="name">مهی شکری</h1>
-        <h3>و یه چیزایی با <span id="typed"></span> میسازم</h3>
+        <h1 class="name">مِهی شکری</h1>
+        <h3 class="value">؛ و یه چیزایی با <span id="typed"></span> میسازم</h3>
     </div>
 </div>
 <div id="pt" class="canvas">
@@ -94,15 +94,14 @@
 </body>
 <footer>
     <script>
-        var options = {
+        const options = {
             strings: ["کد", "ایده‌هام", "افکارم"],
             typeSpeed: 60,
             backSpeed: 30,
             backDelay: 1000,
-            // startDelay: 2000,
             loop: true
-        }
-        var typed = new Typed("#typed", options);
+        };
+        new Typed("#typed", options);
     </script>
 </footer>
 </html>
