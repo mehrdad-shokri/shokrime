@@ -60,10 +60,10 @@
 }
 
 @font-face {
-    font-family: Mehi;
-    src: url('/fonts/ruby/SI47ASH_Ruby.woff') format('woff');
-    src: url('/fonts/ruby/SI47ASH_Ruby.ttf') format('truetype');
-    src: url('/fonts/ruby/SI47ASH_Ruby.otf') format('opentype');
+    font-family: Ruby;
+    src: url('/fonts/ruby/Ruby.woff') format('woff');
+    src: url('/fonts/ruby/Ruby.ttf') format('truetype');
+    src: url('/fonts/ruby/Ruby.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
