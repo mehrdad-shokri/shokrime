@@ -51,7 +51,7 @@ html, body {
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-    height: 100vh;
+    height: 95%;
 }
 
 .social-links-wrapper {
@@ -70,4 +70,32 @@ html, body {
 a:hover svg path {
     transition: 200ms ease;
     fill: #fff;
+}
+a svg path {
+    transition: 200ms ease;
+}
+
+a {
+    color: #b0b2c3;
+    transition: 200ms ease;
+    text-decoration: none;
+}
+
+a:hover {
+    transition: 200ms ease;
+    color: #fff;
+}
+
+.header-logo {
+    max-width: 100px;
+}
+
+.content-wrapper {
+    flex: 1;
+}
+
+.content-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
